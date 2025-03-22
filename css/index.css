@@ -1,0 +1,268 @@
+/*  THIS CSS FILE WAS CREATED BY JOSEPH WAMBURA FOR INTERVIEW PURPOSE AT COALITION TECHNOLOGIES*/ 
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+html,body {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+body { 
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "nav article patient"
+      "nav footer footer";
+    grid-template-rows: 80px 1fr 70px;  
+    grid-template-columns: 20% 1fr 15%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    height: 20vh;
+    margin: 10px;
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+    grid-auto-rows: minmax(10px, auto);
+    grid-auto-rows: minmax(10px, auto);
+    }  
+    ul {
+      list-style: none;
+    }
+  header, footer,div, article, nav, #patient {
+    padding: .8em;
+    background: white;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,.3);
+    border-radius: 6px;
+    }
+    #pageHeader {
+      grid-area: header;
+      }
+    #pageFooter {
+      grid-area: footer;
+      grid-column-start: 2;
+      grid-column-end: 2;
+      background-color: white;
+      padding: 0;
+      }
+      #pageFooter2 {
+        grid-area: footer;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+        height: vh;
+        }
+    #mainArticle { 
+      grid-area: article;    
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      column-gap: 1em;
+      row-gap: 1em;
+    }
+    #mainNav { 
+      grid-area: nav; 
+      grid-template-rows: 2;
+      grid-template-columns: 1;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      }
+    #patient { 
+      grid-area: patient; 
+      display: flex;
+      height: vh;
+      flex-direction: column;
+      } 
+/*end of grid elements starting custom styles*/
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: .5em;
+  grid-template-columns: repeat(4, 1fr);
+}
+#navbar {
+  width: auto;
+  display: flexbox;
+  padding:0;
+  flex-direction: row;
+  grid-column-start: 2;
+  box-shadow: none;
+  overflow: hidden;
+  grid-column-end: 4;
+  background: transparent;
+  
+}
+#navbar p {
+  float: left;
+  padding:.6em;
+  margin-left: 1em;
+  border-radius: .6em;
+}
+.active {
+  background: aqua
+}
+#user {
+  padding: 0;
+  display: flexbox;
+  box-shadow: none;
+  flex-direction: row;
+  text-align: end;
+  background: transparent;
+}
+#mainNav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+}
+#mainNav ul li{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    padding-top: .4em;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2em;   
+}
+#mainNav ul li p {
+    width: 100%;
+}
+#mainNav ul li p span {
+    color: rgba(0,0,0,.6);
+}
+.dotNav {
+    width: 10%;
+}
+.profile {
+    border-radius: 100%;
+    width: 18%;
+    margin: .2em ;
+}
+#patient ul:first-child {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#patient ul:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+}
+#patient ul:nth-child(2) li {
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    padding: 0em;
+    align-items: center;
+    width: 100%;
+    font-size: .9em;   
+}
+#patient button {
+    width: 100%;
+    border: none;
+    background-color: white;
+    box-shadow: 1px 3px 1px rgba(0,0,0,.15),1px 2px 1px rgba(0,0,0,.3)
+    ,1px 2px 1px rgba(0,0,0,.12);
+    border-radius: 1em;
+}
+.icon {
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+}
+#patient .profile {
+    width: 65%;
+}
+.patient-chart {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#mainArticle div {
+  border-radius: 1em;
+  background-color: aqua;
+}
+#mainArticle div ul{
+  line-height: 0;
+}
+#mainArticle .ul-info li{
+  padding-top: 1em;
+  line-height: 0;
+}
+#mainArticle .ul-info div{
+  box-shadow: none;
+}
+.wp-table {
+  width: 100%;
+  border-radius: 1em;
+  border-spacing: 0;
+  background-color: white;
+}
+.wp-table td, 
+.wp-table th {
+  padding: 1em;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+.wp-table th {
+  font-weight: bold;
+}
+.wp-table tr:first-child {
+  background-color: rgba(0,0,255,.2);
+  width: 100%;
+}
+.info-temperature, .info-diastolic, .info-systolic, .info-respiratory,.info-heart-rate {
+  font-size: 2em;
+  font-weight: bold;
+}
+#pageFooter2 a {
+  display: block;
+  padding: 1em;
+  width: 100% (-padding);
+  background-color: white;
+}
+#pageFooter2 a i {
+  float: right;
+}
+
+  /* Stack the layout on small devices/viewports, but we will not 
+  dive deep in to reponsive layout as its not in the limited time interview*/
+  @media all and (max-width: 575px) {
+    body { 
+      grid-template-areas: 
+        "header"
+        "article"
+        "patient"
+        "nav"
+        "footer";
+      grid-template-rows: 80px 1fr 70px 1fr 70px;  
+      grid-template-columns: 1fr;
+   }
+  }

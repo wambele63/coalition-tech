@@ -1,0 +1,161 @@
+<!--NOTICE: Though its a bad approach but
+ because of a limited time expect to see some 
+ css snippets in html elements *-WELCOME-*-->
+<!doctype html>
+<html lang="en" class="box-border">
+<head>
+<title>HealthCare Institute</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="./src/output.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<script src="js/libraries/jqyery371.js" type="text/javascript"></script> 
+<script src="js/index.js" type="text/javascript"></script>
+<style>
+  .material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+</style>
+</head>
+<body class=""> 
+  <!--System Head Section-->
+  <div class="grid fixed grid-rows-1 grid-cols-1 p-3 md:grid-cols-5 md:grid-rows-1">
+  <header class="grid items-center h-fit justify-center grid-cols-6 grid-rows-1 border-b-2 border-r-gray-700 w-full text-black md:col-start-1 md:col-end-6 md:row-start-1 md:row-end-2" id="pageHeader">
+    <div class="flex flex-col items-center" id="h1">
+      <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#5985E1"><path d="M430-290h100v-100h100v-100H530v-100H430v100H330v100h100v100ZM160-120v-480l320-240 320 240v480H160Z"/></svg>
+      <h1>Mr Wambele HealthCare</h1>
+    </div>
+    <div class="flex flex-row justify-end md:justify-center col-start-2 col-end-6 space-x-2" id="navbar">
+    <p class="flex flex-row"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M160-120v-480l320-240 320 240v480H560v-280H400v280H160Z"/></svg><p class="hidden md:inline">Overview</p></p>
+    <p class="active flex flex-row"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M40-160v-112q0-34 17.5-62.5T104-378q62-31 126-46.5T360-440q66 0 130 15.5T616-378q29 15 46.5 43.5T680-272v112H40Zm720 0v-120q0-44-24.5-84.5T666-434q51 6 96 20.5t84 35.5q36 20 55 44.5t19 53.5v120H760ZM360-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm400-160q0 66-47 113t-113 47q-11 0-28-2.5t-28-5.5q27-32 41.5-71t14.5-81q0-42-14.5-81T544-792q14-5 28-6.5t28-1.5q66 0 113 47t47 113Z"/></svg><p class="hidden md:inline">Patients</p></p>
+    <p  class="flex flex-row "><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M280-400v-80h400v80H280Zm0 160v-80h280v80H280ZM200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Z"/></svg><p class="hidden md:inline">Schedule</p></p>
+    <p class="flex flex-row"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M280-240q-17 0-28.5-11.5T240-280v-80h520v-360h80q17 0 28.5 11.5T880-680v600L720-240H280ZM80-280v-560q0-17 11.5-28.5T120-880h520q17 0 28.5 11.5T680-840v360q0 17-11.5 28.5T640-440H240L80-280Z"/></svg><p class="hidden md:inline">Message</p></p>
+    <p class="flex flex-row" id="transactions"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M240-80q-50 0-85-35t-35-85v-120h120v-560l60 60 60-60 60 60 60-60 60 60 60-60 60 60 60-60 60 60 60-60v680q0 50-35 85t-85 35H240Zm480-80q17 0 28.5-11.5T760-200v-560H320v440h360v120q0 17 11.5 28.5T720-160ZM360-600v-80h240v80H360Zm0 120v-80h240v80H360Zm320-120q-17 0-28.5-11.5T640-640q0-17 11.5-28.5T680-680q17 0 28.5 11.5T720-640q0 17-11.5 28.5T680-600Zm0 120q-17 0-28.5-11.5T640-520q0-17 11.5-28.5T680-560q17 0 28.5 11.5T720-520q0 17-11.5 28.5T680-480Z"/></svg><p class=" ">Transactions</p></p>
+    </div>
+
+    <div class="flex items-center justify-center" id="user">
+      <p><img style="border-radius: 100%;" src="img/joseph.png" alt="Wambura, Joseph (Front-end Developer)" width="40px" height="40px"/> <p class="hidden lg:flex p-2">Joseph Wambura </br> Junior Developer</p> <span class="hidden lg:flex  flex-row"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm112-260q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg></span></p>
+    </div>
+  </header>
+
+  <!--Our Left Navigation view where we will load out patients for their each navigation-->
+  <nav id="mainNav" class="flex max-h-40 md:h-auto flex-col md:row-start-2 md:row-end-4 overflow-y-auto gap-3 md:col-start-1 md:col-end-2">
+    <h3 class="grid grid-rows-1 grid-cols-2 w-full p-4"><p>Patients</p>
+      <p class="flex justify-end w-full"><img src="img/icons8-search-30.png" class="w-5 h-5"/></p></h3>
+   <ul class="flex items-start row-start-2 justify-start">
+    <li class="grid items-center grid-rows-1 md:grid-rows-2 lg:grid-rows-1 grid-cols-7">
+     <img class="flex w-full" src="img/loader.gif" alt=" loading Patients" /></li>
+  </ul>
+  </nav>
+
+  <!--Our Main Part with chart graphs and extra patient data-->
+  <article id="mainArticle" class="flex flex-col w-full p-3 md:col-start-2 md:col-end-5 md:row-start-2 md:row-end-3 h-fit">
+   <div class="p-3 grid grid-rows-2 rounded shadow md:grid-rows-1 grid-cols-1 md:grid-cols-4 col-start-1 col-end-4  bg-indigo-300 ">
+    
+    <div class="patient-chart col-start-1 col-end-1 md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-3 h-fit bg-indigo-300 ">
+      <canvas id="patient-chart"></canvas>
+  </div>
+
+      <div class="ul-info rounded shadow grid grid-rows-1 md:grid-rows-2 grid-cols-2 md:grid-cols-1 md:items-center justify-center">
+        <div class=" flex flex-col justify-center items-center"> Systolic <br> <p class="info-systolic font-bold text-4xl">0</p> 
+          <div>
+          <i class="material-icons lg:inline">arrow_drop_up</i>
+          <p>Higher than average</p>
+       </div>
+      </div>
+       <div class="flex flex-col justify-center items-center"> Diastolic <br>
+         <p class="info-diastolic font-bold text-4xl">0</p>
+          <div class="flex">
+        <i class="material-icons lg:inline">arrow_drop_down</i>
+         <p class="info-diastolic-level">Lower than average</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="grid grid-rows-1 grid-cols-3 border-t-2 gap-3 border rounded">
+    <div class="flex flex-col rounded row-start-2 col-start-1 items-center bg-sky-400">
+        <div> 
+          <span class="material-icons">
+            <svg xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 -960 960 960" width="100px" fill="#5f6368"><path d="M500-40q-25 0-42.5-17.5T440-100v-147l53-141q9-23 29.5-37.5T568-440h32v102l-54 54 28 28 66-67v-197h80v197l66 67 28-28-54-55v-101h32q25 0 45.5 14.5T867-388l53 141v147q0 25-17.5 42.5T860-40h-80q-25 0-42.5-17.5T720-100v-110l-40-40-40 40v110q0 25-17.5 42.5T580-40h-80ZM280-409l-45-89q-5-10-14.5-16t-20.5-6H80v-200q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v220H780v-80H580v80l-25 1-79-159q-5-10-15-15t-21-5q-11 0-21 5t-15 15L280-409ZM160-160q-33 0-56.5-23.5T80-240v-200h95l69 138q5 11 14.5 16.5T280-280q11 0 20.5-5.5T315-302l125-248 40 81q-14 12-25.5 27T436-409l-56 151v98H160Z"/></svg>
+          </span>
+        </div>
+       <div> 
+        <p>Respiratory Rate</p><br>
+        <p class="info-respiratory">0</p><br>
+        <p class="info-respiratory-level">---</p><br>
+       </div>
+    </div>
+
+    <div class="flex flex-col row-start-2 rounded shadow col-start-2 items-center bg-sky-400">
+      <ul>
+        <li> <svg xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 -960 960 960" width="100px" fill="#5f6368"><path d="M480-80q-83 0-141.5-58.5T280-280q0-48 21-89.5t59-70.5v-320q0-50 35-85t85-35q50 0 85 35t35 85v320q38 29 59 70.5t21 89.5q0 83-58.5 141.5T480-80Zm-40-440h80v-40h-40v-40h40v-80h-40v-40h40v-40q0-17-11.5-28.5T480-800q-17 0-28.5 11.5T440-760v240Z"/></svg> </li>
+       <li> 
+        <p>Temperature</p><br>
+        <p class="info-temperature">0</p><br>
+        <p class="info-temperature-level">---</p><br>
+       </li>
+      </ul>
+    </div>
+
+    <div class="flex flex-col rounded shadow row-start-2 col-start-3 items-center bg-sky-400">
+      <ul>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="#5f6368" viewBox="0 0 33.087 33.087" xml:space="preserve"><path d="M6.802 13.924h.007c.25.003.477.15.58.379l1.482 3.288 1.142-1.517a.617.617 0 0 1 .559-.256c.217.015.412.14.518.33l1.939 3.497 1.606-5.947a.643.643 0 0 1 1.192-.13l1.244 2.377 2.316-4.499a.658.658 0 0 1 .666-.344.647.647 0 0 1 .54.521l1.254 6.762 2.903-2.826a.628.628 0 0 1 .574-.17c.206.04.381.182.466.376l.859 1.988 1.407-4.622c.06-.193.215-.314.396-.383.013-.384.029-.766-.012-1.157-.698-6.77-8.258-6.665-11.898-3.399-3.64-3.266-11.195-3.37-11.897 3.399-.164 1.58.133 3.094.711 4.517l.865-1.817a.64.64 0 0 1 .581-.367z"/><path d="M21.883 20.146a.643.643 0 0 1-1.083-.345l-1.13-6.092-2.023 3.927a.642.642 0 0 1-.568.349h-.001a.647.647 0 0 1-.571-.345l-1.058-2.018-1.591 5.893a.647.647 0 0 1-.621.476.64.64 0 0 1-.562-.332l-2.229-4.019-1.2 1.593a.642.642 0 0 1-1.101-.124L6.787 16.1l-.711 1.494c3.192 5.625 10.468 9.468 10.468 9.468s5.849-3.095 9.359-7.791l-.925-2.138-3.095 3.013zM4.637 17.621l-1.6-1.185a.641.641 0 0 0-.621-.083l-2.009.797a.643.643 0 1 0 .473 1.196l1.678-.664 1.94 1.436a.642.642 0 0 0 .964-.24l.612-1.286a12.902 12.902 0 0 1-.719-1.484l-.718 1.513zM32.441 17.105h-1.912l-1.242-3.977a.64.64 0 0 0-.614-.451h-.003c-.081 0-.146.044-.217.072-.076 2.377-1.104 4.584-2.55 6.521l.262.604c.106.248.353.419.627.387a.647.647 0 0 0 .58-.455l1.309-4.303.763 2.438a.64.64 0 0 0 .614.451h2.385a.645.645 0 0 0 .645-.645.646.646 0 0 0-.647-.642z"/></svg> </li>
+       <li> 
+        <p>Heart Rate</p><br>
+        <p class="info-heart-rate">0</p><br>
+        <p class="info-heart-rate-level">---</p><br>
+       </li>
+      </ul>
+    </div>
+</div>
+
+
+  <!--The footer section where we display some other patient related data-->
+  <div id="pageFooter" class="flex flex-col w-full p-3 gap-3 md:col-start-2 md:col-end-5 md:row-start-3 md:row-end-4 h-fit">
+    <h3>Diagnostic List</h3>
+    <table class="wp-table table w-full rounded-lg">
+      <tr class="table-row bg-sky-500">
+        <th class="border">Problem/Diagnosis</th>
+        <th class="border">Description</th>
+        <th class="border">Status</th>
+      </tr>
+    </table>
+  </div>
+  </article>
+
+    
+<!--The DIV where we will load selected patient personal info-->
+<div id="patient" class="flex flex-col w-full p-3 gap-3 md:col-start-5 md:col-end-6 md:row-start-2 md:row-end-2 max-h-screen overflow-auto">
+  <h3>Patient Personal Details</h3>
+  <div id="ppd"></div>
+  <!--The right side bottom-right holder for lab results-->
+  <div id="pageFooter2" class="flex flex-col w-full gap-3 p-3 md:col-start-5 md:row-start-3 md:row-end-4 h-fit">
+    <b>Lab Results</b>
+  </div>
+</div>
+</div><!--we load some js lastly after html and css to make our web app more user friendly-->
+  <script src="js/libraries/chart.min.js"></script>
+</body>
+</html>
